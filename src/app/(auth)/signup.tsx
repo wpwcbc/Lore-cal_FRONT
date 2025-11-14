@@ -104,6 +104,7 @@ export default function Signup() {
 					alignItems: "center",
 					justifyContent: "center",
 					paddingHorizontal: 16,
+					backgroundColor: "#edd5b0",
 				}}
 			>
 				<Title2Text>{statusMsg}</Title2Text>
@@ -254,14 +255,16 @@ export default function Signup() {
 
 const s = StyleSheet.create({
 	formView: {
-		paddingHorizontal: 16,
+		padding: 16,
+		backgroundColor: "#edd5b0",
+		height: "100%",
 	},
 	fieldBox: {
 		paddingBottom: 10,
 	},
 	input: {
 		borderBottomWidth: 1,
-		backgroundColor: "#f0f0f0",
+		backgroundColor: "#edd5b0",
 	},
 	button: {
 		color: "#ffb246",

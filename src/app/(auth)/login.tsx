@@ -149,7 +149,9 @@ export default function Login() {
 
 const s = StyleSheet.create({
 	formView: {
-		paddingHorizontal: 16,
+		padding: 16,
+		backgroundColor: "#edd5b0",
+		height: "100%",
 	},
 	fieldBox: {
 		paddingBottom: 10,
