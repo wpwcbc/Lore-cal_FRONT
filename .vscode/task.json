@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "tsc watch",
+			"type": "process",
+			"command": "tsc",
+			"args": ["--watch", "--noEmit", "--project", "."],
+			"isBackground": true,
+			"problemMatcher": "$tsc-watch",
+			"runOptions": {
+				"runOn": "folderOpen"
+			}
+		}
+	]
+}

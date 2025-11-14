@@ -1,36 +1,57 @@
 {
-  "expo": {
-    "name": "lore-cal-app",
-    "slug": "lore-cal-app",
-    "version": "1.0.0",
-    "scheme": "lore-cal-app",
-    "web": {
-      "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/favicon.png"
-    },
-    "plugins": ["expo-router", "expo-web-browser"],
-    "experiments": {
-      "typedRoutes": true,
-      "tsconfigPaths": true
-    },
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "assetBundlePatterns": ["**/*"],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
-    }
-  }
+	"expo": {
+		"name": "lore-cal-app",
+		"slug": "lore-cal-app",
+		"version": "1.0.0",
+		"scheme": "lore-cal-app",
+		"web": {
+			"bundler": "metro",
+			"output": "static",
+			"favicon": "./assets/favicon.png"
+		},
+		"plugins": [
+			"expo-router",
+			"expo-web-browser",
+			[
+				"@rnmapbox/maps",
+				{
+					"RNMapboxMapsDownloadToken": "sk.eyJ1Ijoid3B3Y2JjIiwiYSI6ImNtZWdocXo4MzAyNmkyaHF2ejBzNmpmaGgifQ.9eYeOUQQCuqBdHrSxo61eQ",
+					"RNMapboxMapsVersion": "11.14.2"
+				}
+			],
+			[
+				"expo-location",
+				{
+					"locationWhenInUsePermission": "Show current location on map."
+				}
+			],
+			"expo-font",
+			"expo-secure-store"
+		],
+		"experiments": {
+			"typedRoutes": true,
+			"tsconfigPaths": true
+		},
+		"orientation": "portrait",
+		"icon": "./src/assets/icon.png",
+		"userInterfaceStyle": "light",
+		"splash": {
+			"image": "./src/assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true
+		},
+		"android": {
+			"newArchEnabled": false,
+			"adaptiveIcon": {
+				"foregroundImage": "./src/assets/adaptive-icon.png",
+				"backgroundColor": "#ffffff"
+			},
+			"package": "com.anonymous.lorecalapp"
+		},
+		"jsEngine": "hermes"
+	}
 }

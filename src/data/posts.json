@@ -1,0 +1,50 @@
+[
+    {
+        "coord": {
+            "lng": -122.082758,
+            "lat": 37.42487
+        },
+        "category": "Historic",
+        "title": "The Great Victorian Mansion of Maple Street",
+        "thumbnailUrl": "https://res.cloudinary.com/dkzg8zako/image/upload/v1756405653/lore-cal/stories/kpg2ubbt8xifqxlnmuaq.jpg",
+        "venue": "Maple Street",
+        "content": "Built in 1887, this magnificent Victorian mansion served as the residence of prominent businessman Charles Whitmore. The three-story structure features ornate gingerbread trim, a wraparound porch, and original stained glass windows. During the 1906 earthquake, the mansion served as a temporary shelter for displaced families. Today, it stands as one of the finest examples of Queen Anne Victorian architecture in the region.",
+        "author": "System Seeder"
+    },
+    {
+        "coord": {
+            "lng": -122.085912,
+            "lat": 37.421102
+        },
+        "category": "Historic",
+        "title": "The Old Railway Bridge and Its Tales",
+        "thumbnailUrl": "https://res.cloudinary.com/dkzg8zako/image/upload/v1756435031/lore-cal/stories/droscie8n85umo2sv5td.jpg",
+        "venue": "Valley Railway",
+        "content": "Constructed in 1895, this steel truss bridge carried the Pacific Railway line across the valley for over 70 years. Local legend tells of the mysterious disappearance of a train conductor in 1923, whose lantern can allegedly still be seen on foggy nights. The bridge was decommissioned in 1965 and now serves as a pedestrian walkway, offering stunning views of the surrounding countryside and a glimpse into the area's industrial past.",
+        "author": "System Seeder"
+    },
+    {
+        "coord": {
+            "lng": -122.082177,
+            "lat": 37.419653
+        },
+        "category": "Historic",
+        "title": "Sacred Grounds: The Lost Mission Chapel",
+        "thumbnailUrl": "https://res.cloudinary.com/dkzg8zako/image/upload/v1756435156/lore-cal/stories/yo6j68er0uenzrwc8ndb.jpg",
+        "venue": "Mission San Miguel",
+        "content": "Hidden beneath centuries of overgrowth, archaeologists discovered the ruins of Mission San Miguel in 1978. Founded by Spanish missionaries in 1769, this small chapel served the local indigenous community until its abandonment in 1834. Excavations have revealed beautiful hand-painted ceiling fragments, carved wooden crosses, and a bell that still bears the mission's original inscription. The site offers a poignant reminder of California's complex colonial history.",
+        "author": "System Seeder"
+    },
+    {
+        "coord": {
+            "lng": -122.086015,
+            "lat": 37.41745
+        },
+        "category": "Historic",
+        "title": "The Merchant's Quarter: Where Commerce Thrived",
+        "thumbnailUrl": "https://res.cloudinary.com/dkzg8zako/image/upload/v1756438409/lore-cal/stories/phtoeylvhqqanyqitwnj.jpg",
+        "venue": "Old Market Square",
+        "content": "Once the bustling heart of the town's commercial district, this cobblestone square hosted weekly markets from 1852 to 1943. The area attracted traders, farmers, and artisans from across the county. The original general store, established by the Patterson family, still stands with its hand-painted sign and wooden barrel displays. During the Gold Rush era, this square saw fortunes made and lost as prospectors traded their findings for supplies and dreams.",
+        "author": "System Seeder"
+    }
+]
