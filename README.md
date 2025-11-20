@@ -38,21 +38,21 @@ Every story (“Lore”) must be pinned to a real-world location, encouraging pe
 
 ## Screenshots
 
-<!--
-TODO: Add real screenshots in docs/screenshots and update paths.
--->
-
 Map view with clustered stories:
 
-![Map screen](./docs/screenshots/map-screen.png)
+<img width="290" height="605" alt="image" src="https://github.com/user-attachments/assets/a8ebed48-6773-4d12-b09b-3b53165c919f" />
 
 Story details and comments:
 
-![Story screen](./docs/screenshots/story-screen.png)
+<img width="290" height="605" alt="image" src="https://github.com/user-attachments/assets/52aaf23c-2281-4795-b6e5-251c41663524" />
+<img width="290" height="605" alt="image" src="https://github.com/user-attachments/assets/9eea3f97-194f-4eba-97fd-a0435c3fd753" />
 
 User profile with “turf” map:
 
-![Profile screen](./docs/screenshots/profile-screen.png)
+<img width="270" height="420" alt="image" src="https://github.com/user-attachments/assets/b3ed744a-e327-4ab6-b3e5-f0dab959d20e" />
+<img width="270" height="420" alt="image" src="https://github.com/user-attachments/assets/935044eb-622b-4dad-9992-83081f6f1fd8" />
+
+
 
 ---
 
